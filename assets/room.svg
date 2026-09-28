@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360">
+<!-- Flat shapes match the room illustration in the reference. -->
+<rect width="400" height="360" rx="22" fill="#decdb0"/>
+<rect x="19" y="20" width="362" height="225" fill="#f7f4e7"/>
+<rect x="28" y="29" width="344" height="207" fill="#fcfaf7"/>
+<ellipse cx="121" cy="119" rx="61" ry="71" fill="#afc2ad"/>
+<circle cx="295" cy="100" r="57" fill="#d48357"/>
+<rect x="0" y="225" width="54" height="135" fill="#b49a72"/>
+<rect x="345" y="225" width="55" height="135" fill="#b49a72"/>
+<rect x="21" y="291" width="340" height="19" rx="9" fill="#806047"/>
+<rect x="45" y="310" width="13" height="50" fill="#806047"/>
+<rect x="324" y="310" width="13" height="50" fill="#806047"/>
+<rect x="323" y="210" width="29" height="45" rx="5" fill="#c17b50"/>
+<path d="M337 216Q298 192 326 115Q354 164 337 216Z" fill="#527968"/>
+<path d="M337 216Q337 148 383 113Q377 187 337 216Z" fill="#2f5d50"/>
+</svg>

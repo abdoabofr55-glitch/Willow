@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willow &amp; Co.</title>
+    <!-- Inter is the font listed in the assignment. -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- This is where my page content starts. -->
+<body>
+<div class="container">
+
+<!-- The logo and navigation sit next to each other using flex. -->
+<header>
+    <div class="logo">
+        <img class="logo-image" src="assets/leaf.svg" alt="">
+        <span>Willow &amp; Co.</span>
+    </div>
+    <nav aria-label="Main navigation">
+        <button type="button">Home</button>
+        <button type="button">About</button>
+        <button type="button">Services</button>
+        <button type="button">Contact</button>
+        <button type="button" class="top-button">Book a consultation</button>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="small"><span aria-hidden="true">●</span> CALGARY, ALBERTA</p>
+            <h1 id="page-title">Thoughtful spaces.<br>Beautifully organized.</h1>
+            <p class="intro">Interior styling and home organization for calm, functional rooms that feel unmistakably yours.</p>
+            <div class="hero-buttons">
+                <button type="button" class="orange-button">Explore services</button>
+                <button type="button" class="plain-button">See our work <span aria-hidden="true">→</span></button>
+            </div>
+        </div>
+        <!-- The picture is saved in the assets folder. -->
+        <img class="picture" id="work" src="assets/room.svg" alt="Illustration of framed artwork and a plant on a wooden console.">
+
+    </section>
+
+    <section class="services" id="services">
+        <p class="small">WHAT WE DO</p>
+        <h2>Make room for what matters</h2>
+        <p>Flexible services designed around your home, routines, and budget.</p>
+
+        <!-- Flex puts these three boxes in a row. -->
+        <div class="service-row">
+            <div class="service-box">
+                <img class="symbol" src="assets/room-icon.svg" alt="">
+                <h3 class="service-title">Room Refresh</h3>
+                <p class="service-description">A focused design plan to give one room a fresh, cohesive new look.</p>
+                <button type="button" class="learn-button">Learn more <span aria-hidden="true">→</span></button>
+            </div>
+            <div class="service-box">
+                <img class="symbol" src="assets/organization-icon.svg" alt="">
+                <h3 class="service-title">Home Organization</h3>
+                <p class="service-description">Simple systems that reduce clutter and make daily life feel easier.</p>
+                <button type="button" class="learn-button">Learn more <span aria-hidden="true">→</span></button>
+            </div>
+            <div class="service-box">
+                <img class="symbol" src="assets/house-icon.svg" alt="">
+                <h3 class="service-title">Move-In Styling</h3>
+                <p class="service-description">Furniture placement and finishing touches for your new beginning.</p>
+                <button type="button" class="learn-button">Learn more <span aria-hidden="true">→</span></button>
+            </div>
+        </div>
+    </section>
+
+    <div class="review" id="about">
+        <p class="quote" aria-hidden="true">“</p>
+        <blockquote>Willow &amp; Co. transformed our busy living room into a space that finally feels peaceful, practical, and completely ours.</blockquote>
+        <div class="person">
+            <span class="avatar" aria-hidden="true"></span>
+            <div>
+                <p class="person-name">Maya R.</p>
+                <p class="person-detail">Calgary homeowner</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <h2>Ready to love your space again?</h2>
+        <p>Tell us about your home and we'll recommend a simple place to begin.</p>
+        <!-- These buttons are only for the design, so they do not open anything. -->
+        <button type="button" class="orange-button">Start a conversation</button>
+    </section>
+</main>
+
+<footer>
+    <p class="footer-text">© 2026 Willow &amp; Co.</p>
+</footer>
+
+</div>
+</body>
+</html>
